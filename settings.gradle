@@ -6,4 +6,4 @@
 
 rootProject.name = 'pluto'
 
-include 'deployment', 'example'
+include 'deployment', 'example', 'cicd'
