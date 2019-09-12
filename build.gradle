@@ -23,8 +23,8 @@ subprojects {
         apply plugin: 'com.ca.apim.gateway.gateway-export-plugin'
         GatewayConnection {
             url = 'https://localhost:8443/restman'
-            username = 'admin'
-            password = '7alyer'
+            userName = 'admin'
+            userPass = '7layer'
         }
     }
 
