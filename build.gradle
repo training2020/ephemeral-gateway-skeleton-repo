@@ -23,10 +23,12 @@ subprojects {
         apply plugin: 'com.ca.apim.gateway.gateway-export-plugin'
         GatewayConnection {
             url = 'https://localhost:8443/restman'
+            username = 'admin'
+            password = '7alyer'
         }
     }
 
-    group '<my.group.id>'
+    group 'pluto'
     version = '1.0.0'
 
     repositories {
